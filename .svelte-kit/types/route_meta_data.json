@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/albums": [
+		"src/routes/albums/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/blog": [
+		"src/routes/blog/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/users": [
+		"src/routes/users/+page.server.ts",
+		"src/routes/+layout.js"
+	],
+	"/[name]/customer/client": [
+		"src/routes/+layout.js"
+	]
+}
