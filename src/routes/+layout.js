@@ -1,8 +1,10 @@
 export const load = () => {
 	return {
-		paginas: [
-			{ rutas: '/', titulo: 'Home' },
-			{ rutas: '/users', titulo: 'Users' }
+		pages: [
+			{ route: '/', title: 'Home' },
+			{ route: '/users', title: 'Users' },
+			{ route: '/blog', title: 'Blog' },
+			{ route: '/albums', title: 'Album' }
 		]
 	};
 };

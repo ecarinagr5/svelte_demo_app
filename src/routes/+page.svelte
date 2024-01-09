@@ -1,4 +1,12 @@
-
-<div class="container mx-auto">
-	<p>Welcome Demo App with Svelte</p>
-</div>
+<script>
+	// @ts-nocheck
+  
+	export let data;
+  </script>
+  
+  <h1>Home</h1>
+  
+  {#each data.paginas as pagina}
+	<p>{pagina.titulo}</p>
+  {/each}
+  
